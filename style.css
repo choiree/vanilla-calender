@@ -10,3 +10,34 @@ h1 {
   text-align: center;
   font-size: 72px;
 }
+.image-box,
+.today,
+.calender {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-box img {
+  width: 10%;
+  padding-top: 30px;
+}
+
+.today {
+  flex-direction: column;
+}
+.today p {
+  margin: 10px;
+}
+.today-day,
+.today-date {
+  font-size: 50px;
+  font-weight: bold;
+}
+.today-month,
+.today-year {
+  font-size: 25px;
+}
+
+.calender table {
+  margin: 20px 50px 50px;
+}
