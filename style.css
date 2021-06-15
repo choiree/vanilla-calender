@@ -12,7 +12,7 @@ h1 {
 }
 .image-box,
 .today,
-.calender {
+.main {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,7 +39,7 @@ h1 {
 }
 
 table {
-  margin: 20px 50px 50px;
+  margin: 20px 30px 50px;
 }
 table th,
 table td {
