@@ -18,10 +18,9 @@ const date = new Date();
 function mainDate(e){
     now = new Date(now.getFullYear(), now.getMonth(), now.getDate());
     const target = e.target;
-    //let getDay = now.getDay();
+    //let getDay = now.setMonth(now.getMonth()+target);
     //let day = dayName[now.getDay()];
-
-    //todayDay.innerText = target.getDay();
+    //todayDay.innerText = getDay;
     todayDate.innerText = target.innerText;
     
 }
