@@ -48,7 +48,6 @@ function makeCalender(){
     //이달의 1일
     const lastDay = new Date(now.getFullYear(), now.getMonth() + 1, 0);
     //0일은없기에 하루전날을 반환함
-    //html 에서 테이블 가져오기
     while(calender.rows.length > 1){
         calender.deleteRow(calender.rows.length-1);
     }
